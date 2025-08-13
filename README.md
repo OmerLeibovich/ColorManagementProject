@@ -64,16 +64,16 @@ ToAllProject/
 
 Follow these steps to set up and run the project locally:
 
-### 1️⃣ Clone the repository
-```
-git clone https://github.com/OmerLeibovich/ColorManagementProject.git
-cd ColorManagementProject
-```
-
 ## Requirements
 - .NET Framework **4.x**
 - PostgreSQL **9.6+**
 - Visual Studio with **ASP.NET** support
+
+### 1️⃣ Clone the repository
+```
+git clone https://github.com/OmerLeibovich/ColorManagementProject.git
+cd ColorManagementProject/ToAllProject
+```
 
 ### 2️⃣ Setup
 1. Restore NuGet packages (including `Npgsql`).
@@ -102,4 +102,5 @@ All WebMethods return JSON responses for easy AJAX integration.
 Messages are localized in Hebrew.
 
 Ensure all files are saved in UTF-8 to support Hebrew text.
+
 
