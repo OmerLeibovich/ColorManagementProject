@@ -75,6 +75,7 @@ ToAllProject/
        connectionString="Host=localhost;Database=YOUR_DB;Username=USER;Password=PASS"
        providerName="Npgsql" />
 </connectionStrings>
+```
 
 Ensure your Colors table exists and is populated.
 
@@ -84,11 +85,9 @@ Open the project in Visual Studio
 Press F5 to start the web app
 
 Access via:
-
-bash
-Copy
-Edit
+```
 http://localhost:PORT/index.aspx
+```
 📌 Notes
 All WebMethods return JSON responses for easy AJAX integration.
 
